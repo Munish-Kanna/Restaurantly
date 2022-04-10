@@ -1,0 +1,248 @@
+/*HTML Body Common tags*/
+h4 {
+    font-family: 'Abril Fatface', cursive;
+    padding-top: 30px;
+    color: white;
+}
+
+h2 {
+    font-family: 'Abril Fatface', cursive;
+    color: rgb(221, 181, 81);
+    padding-bottom: 20px;
+}
+
+/*End of HTML Body Common tags*/
+
+/*Header Section*/
+#header {
+    background-color: rgba(0, 0, 0, 0.877);
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+#header a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#header a:hover{
+    color: goldenrod;
+}
+
+#menubar {
+    justify-content: center;
+}
+
+.form-btn {
+    border-radius: 20px;
+    border: 2px solid rgb(221, 181, 81);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+/* End of Header Section*/
+
+/*Image Section*/
+#image {
+    background: url(/assets/img/Hero/hero-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.img-info {
+    padding: 250px 0;
+}
+
+.img-info h1 {
+    color: rgb(0, 0, 0);
+    font-family: 'Abril Fatface', cursive;
+}
+
+.custom-text {
+    color: rgb(221, 181, 81);
+}
+
+.img-info p {
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+/*End of Image Section*/
+
+/*About Section*/
+#about {    
+    background-image: url(/assets/img/About/about-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.about-info {
+    padding: 100px 0;
+    color: white;
+}
+
+.about-info img {
+    border: 5px solid rgb(71, 71, 71);
+    justify-content: center;
+}
+
+.about-info img:hover {
+    transform: scale(1.04);
+    transition-duration: .5s;
+}
+
+/*End of About Section*/
+
+/*Why Us Section*/
+#why-us {
+    background-color: #0c0909;
+    padding: 50px;
+}
+
+.why-us-card {
+    padding: 50px 20px;
+    background-color: rgb(27, 23, 21);
+    color: white;
+}
+
+/*End of Why Us Section*/
+
+/*Events Section*/
+#events {
+    background-image: url(/./assets/img/Events/events-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 20px 20px;
+}
+
+#events h3 {
+    font-weight: bolder;
+    color: rgb(221, 181, 81);
+}
+
+#events .content {
+    color: white;
+    font-weight: 500;
+    text-align: justify;
+}
+
+#events img {
+    padding: 30px 10px;
+}
+
+/*End of Events Section*/
+
+/*Reservation Section*/
+#reservation {
+    background-color: #0c0909;
+    padding: 50px;
+}
+
+.reserve-form {
+    background-color: #0c0909;
+    border: none;
+    border: 0.5px solid rgb(221, 181, 81);
+    border-radius: 0;
+    padding: 10px;
+}
+
+textarea {
+    margin-top: 25px;
+}
+
+.booking-btn {
+    background-color: rgb(221, 181, 81);
+    border-radius: 25px;
+    margin-top: 10px;
+    color: white;
+    padding: 10px 30px;
+}
+
+/*End of Reservation Section*/
+
+/*Testimonials section*/
+#testimonials {
+    background-color: rgb(27, 23, 21);
+    padding: 50px;
+}
+
+/*End of Testimonials Section*/
+
+/*Gallery Section*/
+#gallery {
+    background-color: #0c0909;
+    padding: 50px 0;
+}
+
+.gallery-card :hover {
+    transform: scale(1.01);
+    transition-duration: .5s;
+}
+
+/*End of Gallery Section*/
+
+/*Chefs Section*/
+#chefs {
+    background-color: #0c0909;
+    padding: 50px;
+}
+
+/*End of Chefs Section*/
+
+/*Footer Section*/
+#footer {
+    background-color: #0c0909;
+    padding-top: 50px;
+    color: white;
+    border-top: 1px solid goldenrod;
+}
+
+#footer .card {
+    background-color: #0c0909;
+    border: none;
+
+}
+
+#footer .bottom {
+    margin-top: 10px;
+    background-color: #000000;
+}
+
+#footer .copyright {
+    text-align: center;
+    padding-top: 30px;
+    color: #fff;
+}
+
+#footer .credits {
+    padding: 15px 0;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer address {
+    padding: 10px;
+}
+
+#footer .nav-brand {
+    font-size: larger;
+}
+
+#footer p {
+    font-size: larger;
+    font-weight: bold;
+}
+
+#footer li {
+    padding: 5px;
+    list-style-type: square;
+}
+
+/*End of Section*/
